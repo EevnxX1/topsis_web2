@@ -1,9 +1,11 @@
 <?php
 include "header.php";
+include "menu.php";
 ini_set("display_errors", "Off");
 include("connect.php"); // Pastikan ini berisi kode koneksi dengan mysqli
 ?>
 
+<div class="page-wrapper">
 <div class="container">
   <div class="row">
     <div class="col-lg-12">
@@ -318,4 +320,5 @@ include("connect.php"); // Pastikan ini berisi kode koneksi dengan mysqli
       </div>
     </div>
   </div>
+</div>
 </div>

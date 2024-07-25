@@ -57,7 +57,7 @@ $view_kelas = mysqli_fetch_assoc($hasil_kelas);
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <h1 class="mt-5">Biodata Pemilik Kos</h1>
+                                    <h1 class="mt-5">Biodata Pemilik Universitas</h1>
 
                                     <?php if ($view_kelas) { ?>
                                         <div class="table-responsive">
@@ -67,7 +67,7 @@ $view_kelas = mysqli_fetch_assoc($hasil_kelas);
                                                     <td><?php echo htmlspecialchars($view_kelas['nama']); ?></td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Nama Kos</td>
+                                                    <td>Nama Universitas</td>
                                                     <td><?php echo htmlspecialchars($view_kelas['nama_kos']); ?></td>
                                                 </tr>
                                                 <tr>
@@ -82,7 +82,7 @@ $view_kelas = mysqli_fetch_assoc($hasil_kelas);
                                         </div>
                                     <?php } else { ?>
                                         <div class="alert alert-info">
-                                            <strong>Info!</strong> Sebelum anda dapat melakukan pengisian kamar kos, terlebih dahulu harus mengisi biodata pemilik kos. Terima kasih.
+                                            <strong>Info!</strong> Sebelum anda dapat melakukan pengisian Ruangan Universitas, terlebih dahulu harus mengisi biodata pemilik Universitas. Terima kasih.
                                         </div>
 
                                         <form action="" class="form-horizontal" data-toggle="validator" role="form" method="post">
@@ -93,7 +93,7 @@ $view_kelas = mysqli_fetch_assoc($hasil_kelas);
                                             </div>
 
                                             <div class="form-group">
-                                                <label class="control-label" for="namakos">Nama Kos</label>
+                                                <label class="control-label" for="namakos">Nama Universitas</label>
                                                 <input class="form-control" data-error="Nama Kos Tidak Boleh Kosong." id="namakos" placeholder="Nama Hunian Kos" name="namakos" type="text" required />
                                                 <div class="help-block with-errors"></div>
                                             </div>
@@ -111,7 +111,7 @@ $view_kelas = mysqli_fetch_assoc($hasil_kelas);
                                             </div>
 
                                             <div class="form-group">
-                                                <input id="btn-fblogin" class="btn btn-danger" type="submit" value="Input Data Pemilik Kos" />
+                                                <input id="btn-fblogin" class="btn btn-danger" type="submit" value="Input Data Pemilik Univ" />
                                             </div>
                                         </form>
                                     <?php } ?>

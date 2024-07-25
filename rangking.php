@@ -85,13 +85,13 @@ include "function.php"; // Make sure this file is properly defined
 
                                         // Output results
                                         echo "<b>Hasil Akhir Analisa Metode Topsis Dengan Nilai bobot preferensi sebagai : W adalah = (5,4,3,3,2,2)</b></br>";
-                                        echo "Jadi dapat disimpulkan bahwa Alternatif terbaik menggunakan metode topsis adalah <b>" . ucwords($hsl[0][0]) . "</b> dengan nilai Metode Topsis <b>" . $hsl[0][1] . "</b>.<br><br>";
+                                        echo "Jadi dapat disimpulkan bahwa Universitas terbaik menggunakan metode topsis adalah <b>" . ucwords($hsl[0][0]) . "</b> dengan nilai Metode Topsis <b>" . $hsl[0][1] . "</b>.<br><br>";
                                         echo "<table id='dataTable' class='display' style='width:100%'>";
                                         echo "<thead><tr>
                                         <th>Rangking</th>
                                         <th>Hunian Kos</th>
                                         <th>Hasil Nilai Metode Topsis</th>
-                                        <th>Lihat Kos</th>
+                                        <th>Lihat Univ</th>
                                         </tr></thead>";
                                         echo "<tbody>";
                                         foreach ($hsl as $index => $item) {
@@ -99,7 +99,7 @@ include "function.php"; // Make sure this file is properly defined
                                             <td>" . ($index + 1) . ".</td>
                                             <td>" . ucwords($item[0]) . "</td>
                                             <td>" . $item[1] . "</td>
-                                            <td><a href='detailkamartopsis.php?idk=" . urlencode($item[0]) . "' class='btn btn-lg btn-outline-primary text-uppercase'>Lihat Kos</a></td>
+                                            <td><a href='detailkamartopsis.php?idk=" . urlencode($item[0]) . "' class='btn btn-lg btn-outline-primary text-uppercase'>Lihat Univ</a></td>
                                             </tr>";
                                         }
                                         echo "</tbody></table><hr>";

@@ -19,10 +19,10 @@ $view_kelas = $result->fetch_assoc();
     <div class="container-fluid">
         <div class="row page-titles">
             <div class="col-md-5 col-8 align-self-center">
-                <h3 class="text-themecolor m-b-0 m-t-0">UBAH PEMILIK KOS</h3>
+                <h3 class="text-themecolor m-b-0 m-t-0">UBAH PEMILIK UNIVERSITAS</h3>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                    <li class="breadcrumb-item active">Ubah Pemilik Kos</li>
+                    <li class="breadcrumb-item active">Ubah Pemilik Universitas</li>
                 </ol>
             </div>
         </div>
@@ -41,7 +41,7 @@ $view_kelas = $result->fetch_assoc();
                                 <input type="text" class="form-control" name="nama_pemilik" value="<?php echo htmlspecialchars($view_kelas['nama']); ?>" />
                             </div>
                             <div class="form-group">
-                                <label>Nama Kos</label>
+                                <label>Nama Universitas</label>
                                 <input type="text" class="form-control" name="nama_kos" value="<?php echo htmlspecialchars($view_kelas['nama_kos']); ?>" />
                             </div>
                             <div class="form-group">

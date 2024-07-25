@@ -21,12 +21,12 @@ include("connect.php");
     <link href="css/style.css" rel="stylesheet">
     <link href="css/colors/blue.css" id="theme" rel="stylesheet">
 </head>
-<body>
-<div class="content-wrapper">
+<body style="background-color: #6E7BF5; height: 100vh;">
+<div class="content">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1 class="mt-5">Tambah User</h1>
+                <h1 class="mt-5" style="color: white;">Tambah User</h1>
             </div>
         </div>
         <div class="row">

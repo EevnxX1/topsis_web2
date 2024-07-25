@@ -1,5 +1,5 @@
 <footer class="footer">
-    © 2020 Muris Studio Script Topsis Menggunakan PHP
+    ©2024 GeniusStudioo
 </footer>
 </div>
 

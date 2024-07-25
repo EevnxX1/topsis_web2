@@ -4,7 +4,7 @@
             <?php if ($_SESSION['status'] == 'admin'): ?>
                 <ul id="sidebarnav">
                     <li><a class="waves-effect waves-dark" href="halutama.php" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Dashboard</span></a></li>
-                    <li><a class="waves-effect waves-dark" href="pemilik.php" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Pemilik KOS</span></a></li>
+                    <li><a class="waves-effect waves-dark" href="pemilik.php" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Pemilik UNIV</span></a></li>
                     <li><a class="waves-effect waves-dark" href="kriteria.php" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Bobot Kriteria</span></a></li>
                     <li><a class="waves-effect waves-dark" href="perhitungan.php" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Hasil Nilai Topsis</span></a></li>
                     <li><a class="waves-effect waves-dark" href="user.php" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">List Pemakai</span></a></li>

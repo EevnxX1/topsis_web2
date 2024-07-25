@@ -20,10 +20,10 @@ if ($conn->connect_error) {
         <!-- ============================================================== -->
         <div class="row page-titles">
             <div class="col-md-5 col-8 align-self-center">
-                <h3 class="text-themecolor m-b-0 m-t-0">PEMILIK KOS</h3>
+                <h3 class="text-themecolor m-b-0 m-t-0">PEMILIK UNIV</h3>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                    <li class="breadcrumb-item active">Data Pemilik Kos</li>
+                    <li class="breadcrumb-item active">Data Pemilik Universitas</li>
                 </ol>
             </div>
         </div>
@@ -46,7 +46,7 @@ if ($conn->connect_error) {
                                     <tr>
                                         <th>No.</th>
                                         <th>Nama Pemilik</th>
-                                        <th>Nama Kos</th>
+                                        <th>Nama Universitas</th>
                                         <th>No. Telepon</th>
                                         <th>Foto</th>
                                         <th>Aksi</th>
@@ -78,7 +78,7 @@ if ($conn->connect_error) {
                                             echo "<td>
                                                     <a class='btn btn-warning' href='editpemilik.php?idk=" . urlencode($row['id_pemilik']) . "'>Ubah</a>
                                                     <a class='btn btn-danger' href='javascript:KonfirmasiHapus(\"deletepemilik.php?idk=" . urlencode($row['id_pemilik']) . "\")'>Hapus</a>
-                                                    <a class='btn btn-primary' href='inputkamaradmin.php?idk=" . urlencode($row['id_pemilik']) . "'>Tambah Kamar Kos</a>
+                                                    <a class='btn btn-primary' href='inputkamaradmin.php?idk=" . urlencode($row['id_pemilik']) . "'>Tambah Ruang Univ</a>
                                                   </td>";
                                             echo "</tr>";
                                             $no++;

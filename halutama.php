@@ -10,7 +10,7 @@ include "menu.php";
     <div class="container-fluid">
         <div class="row page-titles">
             <div class="col-md-5 col-8 align-self-center">
-                <h3 class="text-themecolor m-b-0 m-t-0">Dashboard</h3>
+                <h3 class="m-b-0 m-t-0" style="color: #6E7BF5;">Dashboard</h3>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
                     <li class="breadcrumb-item active">Dashboard</li>
@@ -25,7 +25,7 @@ include "menu.php";
                         <?php if ($_SESSION['status'] == 'admin'): ?>
                             <h1 class="mt-5"><p align="center">Halaman Utama Administrator</p></h1>
                             <p class="lead" align="center">
-                                SISTEM PENDUKUNG KEPUTUSAN PEMILIHAN INDEKOS TERBAIK DI SEKITAR KAMPUS<br>MENGGUNAKAN METODE TOPSIS
+                                SISTEM PENDUKUNG KEPUTUSAN PEMILIHAN UNIVERSITAS TERBAIK<br>MENGGUNAKAN METODE TOPSIS
                             </p>
                             <p class="lead" align="center"><img src="assets/images/logo1.png" align="center" width="150"></p>
                         <?php elseif ($_SESSION['status'] == 'pemilik'): ?>

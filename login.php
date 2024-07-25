@@ -178,7 +178,7 @@ body {
                 <select class="form-control" title="Please Select" id="select" name="tipe" required>
                                                 <option value="" selected>- Pilih Level -</option>
                                                 <option value="user">Pencari Universitas</option>
-                                                <!-- <option value="pemilik">Pemilik Kos</option> -->
+                                                <option value="pemilik">Pemilik Kos</option>
                                                 <option value="admin">Administrator</option>
                                                 
                                             </select>
